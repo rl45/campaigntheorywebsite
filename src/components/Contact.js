@@ -23,7 +23,7 @@ class Contact extends React.Component {
                 <div className="col-lg-8">
                     <div className="custom-form mt-4 pt-4">
                         <div id="message"></div>
-                        <form method="post" action="https://mailto:info@campaigntheory.io" name="contact-form" id="contact-form">
+                        <form method="POST" data-netlify="true" name="contact-form" id="contact-form">
                             <div className="row">
                                 <div className="col-lg-6">
                                     <div className="form-group mt-2">
@@ -47,6 +47,13 @@ class Contact extends React.Component {
                                 <div className="col-lg-12">
                                     <div className="form-group mt-2">
                                         <textarea name="comments" id="comments" rows="4" className="form-control" placeholder="Your message..."></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="row">
+                                <div className="col-lg-12">
+                                    <div className="form-group mt-2">
+                                       <div data-netlify-recaptcha="true"></div>
                                     </div>
                                 </div>
                             </div>
