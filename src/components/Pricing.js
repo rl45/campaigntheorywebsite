@@ -24,8 +24,9 @@ class Pricing extends React.Component {
                             <p>Platform: <b className="text-custom">Facebook, Instagram</b></p>
                             <p>Optimization: <b className="text-custom">2 per month</b></p>
                             <p>Target Locations: <b className="text-custom">3</b></p>
-                            <p>Creative: <b className="text-custom">Illustration</b></p>
-                            <p>Revisions <b className="text-custom">2</b></p>
+                            <p>Creative: <b className="text-custom">Graphic Design</b></p>
+                            <p>Revisions: <b className="text-custom">2</b></p>
+                            <p>Completion Time: <b className="text-custom">5 days</b></p>
                             <p><b className="text-custom">No</b> Hidden Fees</p>
                         </div>
                         <a href="https://subscriptions.zoho.com/subscribe/c94c4dbb4d6db226ea226c8f7dc81649b9de07abf9a0975fad482bf477cf719e/1" className="btn btn-custom waves-effect waves-light margin-t-30">Get Started with Economy</a>
@@ -41,8 +42,9 @@ class Pricing extends React.Component {
                             <p>Platform: <b className="text-custom">Facebook, Instagram, AdWords</b></p>
                             <p>Optimization: <b className="text-custom">2 per month</b></p>
                             <p>Target Locations: <b className="text-custom">5</b></p>
-                            <p>Creative: <b className="text-custom">Illustration</b></p>
-                            <p>Revisions <b className="text-custom">2</b></p>
+                            <p>Creative: <b className="text-custom">Graphic Design</b></p>
+                            <p>Revisions: <b className="text-custom">2</b></p>
+                            <p>Completion Time: <b className="text-custom">5 days</b></p>
                             <p><b className="text-custom">No</b> Hidden Fees</p>
                         </div>
                         <a href="https://subscriptions.zoho.com/subscribe/c94c4dbb4d6db226ea226c8f7dc81649b9de07abf9a0975fad482bf477cf719e/2" className="btn btn-custom waves-effect waves-light margin-t-30">Get Started with Deluxe</a>
@@ -58,8 +60,9 @@ class Pricing extends React.Component {
                             <p>Platform: <b className="text-custom">Facebook, Instagram, AdWords</b></p>
                             <p>Optimization: <b className="text-custom">3 per month</b></p>
                             <p>Target Locations: <b className="text-custom">10</b></p>
-                            <p>Creative: <b className="text-custom">Illustration, Videography</b></p>
-                            <p>Revisions <b className="text-custom">3</b></p>
+                            <p>Creative: <b className="text-custom">Graphic Design, 1 High-Quality Video Advertisement</b></p>
+                            <p>Revisions: <b className="text-custom">3</b></p>
+                            <p>Completion Time: <b className="text-custom">3 days</b></p>
                             <p><b className="text-custom">No</b> Hidden Fees</p>
                         </div>
                         <a href="https://subscriptions.zoho.com/subscribe/c94c4dbb4d6db226ea226c8f7dc81649b9de07abf9a0975fad482bf477cf719e/3" className="btn btn-custom waves-effect waves-light margin-t-30">Get Started with Ultimate</a>
