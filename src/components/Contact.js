@@ -23,7 +23,7 @@ class Contact extends React.Component {
                 <div className="col-lg-8">
                     <div className="custom-form mt-4 pt-4">
                         <div id="message"></div>
-                        <form method="post" action="mailto:info@campaigntheory.io" name="contact-form" id="contact-form">
+                        <form method="post" action="https://mailto:info@campaigntheory.io" name="contact-form" id="contact-form">
                             <div className="row">
                                 <div className="col-lg-6">
                                     <div className="form-group mt-2">
