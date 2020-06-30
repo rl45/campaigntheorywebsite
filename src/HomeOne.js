@@ -84,8 +84,8 @@ class HomeOne extends React.Component {
                 {/* FooterLinks Component*/}
                 <FooterLinks />
 
-                {/* Switcher Component*/}
-               <Switcher /> 
+                {/* Switcher Component
+               <Switcher /> */}
         </Aux>
   	);
   }
