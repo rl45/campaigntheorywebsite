@@ -23,7 +23,7 @@ class Contact extends React.Component {
                 <div className="col-lg-8">
                     <div className="custom-form mt-4 pt-4">
                         <div id="message"></div>
-                        <form name="contact" netlify id="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+                        <form name="contact" action="mailto:hello@campaigntheory.io" method="get" enctype="text/plain">
                             <div className="row">
                                 <div className="col-lg-6">
                                     <div className="form-group mt-2">
