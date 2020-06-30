@@ -23,7 +23,7 @@ class Contact extends React.Component {
                 <div className="col-lg-8">
                     <div className="custom-form mt-4 pt-4">
                         <div id="message"></div>
-                        <form method="POST" data-netlify="true" name="contact-form" id="contact-form">
+                        <form name="contact" id="contact" method="POST" data-netlify="true">
                             <div className="row">
                                 <div className="col-lg-6">
                                     <div className="form-group mt-2">
@@ -39,14 +39,14 @@ class Contact extends React.Component {
                             <div className="row">
                                 <div className="col-lg-12">
                                     <div className="form-group mt-2">
-                                        <input type="text" className="form-control" id="subject" placeholder="Your Subject.." />
+                                        <input type="text" name="subect" className="form-control" id="subject" placeholder="Your Subject.." />
                                     </div>
                                 </div>
                             </div>
                             <div className="row">
                                 <div className="col-lg-12">
                                     <div className="form-group mt-2">
-                                        <textarea name="comments" id="comments" rows="4" className="form-control" placeholder="Your message..."></textarea>
+                                        <textarea name="message" id="comments" rows="4" className="form-control" placeholder="Your message..."></textarea>
                                     </div>
                                 </div>
                             </div>
@@ -59,7 +59,7 @@ class Contact extends React.Component {
                             </div>
                             <div className="row">
                                 <div className="col-lg-12 text-right">
-                                    <input type="submit" id="submit" name="send" className="submitBnt btn btn-custom" value="Send Message" />
+                                    <button type="submit" id="submit" name="send" className="submitBnt btn btn-custom" value="Send Message">Send Message</button>
                                     <div id="simple-msg"></div>
                                 </div>
                             </div>
