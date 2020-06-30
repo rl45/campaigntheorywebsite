@@ -23,7 +23,7 @@ class Contact extends React.Component {
                 <div className="col-lg-8">
                     <div className="custom-form mt-4 pt-4">
                         <div id="message"></div>
-                        <form name="contact" action="mailto:hello@campaigntheory.io" method="get" enctype="text/plain">
+                        <form action="https://formspree.io/xbjzawdl" method="POST">
                             <div className="row">
                                 <div className="col-lg-6">
                                     <div className="form-group mt-2">
@@ -32,14 +32,14 @@ class Contact extends React.Component {
                                 </div>
                                 <div className="col-lg-6">
                                     <div className="form-group mt-2">
-                                        <input name="email" id="email" type="email" className="form-control" placeholder="Your email*" />
+                                        <input name="email" id="email" type="email"  name="_replyto" className="form-control" placeholder="Your email*" />
                                     </div>
                                 </div>                                
                             </div>
                             <div className="row">
                                 <div className="col-lg-12">
                                     <div className="form-group mt-2">
-                                        <input type="text" name="subect" className="form-control" id="subject" placeholder="Your Subject.." />
+                                        <input type="text" name="subject" className="form-control" id="subject" placeholder="Your Subject.." />
                                     </div>
                                 </div>
                             </div>
