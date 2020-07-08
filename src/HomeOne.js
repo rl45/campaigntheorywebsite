@@ -34,7 +34,7 @@ class HomeOne extends React.Component {
                                     <div className="col-lg-8 offset-lg-2 text-white text-center">
                                         <h1 className="home-title">We help small businesses, startups, and solopreneurs launch their campaigns</h1>
                                         <p className="padding-t-15 home-desc">We create and manage creative campaigns for Google Ads, Facebook, Instagram, Youtube, and Linkedin</p>
-                                        <p className="play-shadow margin-t-30 margin-l-r-auto"> <Link to="http://vimeo.com/99025203"  className="play-btn video-play-icon"><i className="mdi mdi-play text-center"></i></Link></p>  
+                                        <p className="play-shadow margin-t-30 margin-l-r-auto"> <Link to="https://www.youtube.com/watch?v=F8oFfjZI-Lw"  className="play-btn video-play-icon"><i className="mdi mdi-play text-center"></i></Link></p>  
                                     </div>
                                 </div>
                             </div>
